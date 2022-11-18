@@ -2,7 +2,7 @@ name: start functionapp
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '45 0 * * MON-FRI'
 
 jobs:
   start-functionapp:
